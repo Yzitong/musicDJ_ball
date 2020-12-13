@@ -1,0 +1,35 @@
+{
+  "pages": [
+    "pages/start/start",
+    "pages/list/index",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/guang/guang"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#385587",
+    "navigationBarTitleText": " 七彩氛围灯",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#999",
+    "selectedColor": "#ff2d4a",
+    "backgroundColor": "#385587",
+    "list": [
+      {
+        "pagePath": "pages/list/index",
+        "text": "开始操作",
+        "iconPath": "icons/1.png",
+        "selectedIconPath": "icons/2.png"
+      },
+      {
+        "pagePath": "pages/guang/guang",
+        "text": "闪亮的灯球",
+        "iconPath": "icons/3.png",
+        "selectedIconPath": "icons/4.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

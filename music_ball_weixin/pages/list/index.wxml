@@ -1,0 +1,28 @@
+<!--pages/list/index.wxml-->
+<view  class="content">来当一次炫酷的DJ吧!!!</view>
+<view class="box">
+  <button class="item1" bindtap="play1" plain>disco</button>
+  <button class="item2" bindtap="play3" plain>鼓</button>
+  <button class="item1" bindtap="play1" plain>disco</button>
+  <button class="item3" bindtap="play4" plain>搓碟</button>
+  <button class="item2" bindtap="play3" plain>鼓</button>
+  <button class="item3" bindtap="play4" plain>搓碟</button>
+  <button class="item4" bindtap="play5" plain>电子</button>
+  <button class="item5" bindtap="play6" plain>主调</button>
+  <button class="item4" bindtap="play5" plain>电子</button>
+  <button class="item6" bindtap="play7" plain>人声</button>
+  <button class="item5" bindtap="play6" plain>主调</button>
+  <button class="item6" bindtap="play7" plain>人声</button>
+  <button class="item7" bindtap="play2" plain>吉他</button>
+
+  <button bindtap="topage2"class="item8">
+  <navigator url="/pages/index/index" hover-class="navigator-hover">播放</navigator>
+</button>
+  <button class="item7" bindtap="play2" plain>吉他</button>
+  
+</view>
+
+<view class = "oops" >
+ 
+  <image src='https://image.baidu.com/search/down?tn=download&word=download&ie=utf8&fr=detail&url=https%3A%2F%2Ftimgsa.baidu.com%2Ftimg%3Fimage%26quality%3D80%26size%3Db9999_10000%26sec%3D1605680181500%26di%3Dff02535a849ad0acd3dcea393402b002%26imgtype%3D0%26src%3Dhttp%253A%252F%252Fpic1.win4000.com%252Fmobile%252F2020-03-02%252F5e5cbb6070594.jpg&thumburl=https%3A%2F%2Fss1.bdstatic.com%2F70cFuXSh_Q1YnxGkpoWK1HF6hhy%2Fit%2Fu%3D1700886349%2C2187408652%26fm%3D26%26gp%3D0.jpg'></image>
+</view>

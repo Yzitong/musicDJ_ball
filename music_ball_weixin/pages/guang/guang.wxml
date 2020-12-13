@@ -1,0 +1,14 @@
+<!--index.wxml-->
+<view class="container">
+  <color-picker class="color-picker" colorData="{{colorData}}" rpxRatio="{{rpxRatio}}" bindchangecolor="onChangeColor"></color-picker>
+
+  <view class="button-sp-area">
+    <button class="weui-btn" type="primary" size="mini" bindtap="onClickOpen">开灯</button>
+    <button class="weui-btn" type="warn" size="mini" bindtap="onClickOff">关灯</button>
+  </view>
+
+</view>
+<view class = "oops" >
+ 
+ <image src='https://image.baidu.com/search/down?tn=download&word=download&ie=utf8&fr=detail&url=https%3A%2F%2Ftimgsa.baidu.com%2Ftimg%3Fimage%26quality%3D80%26size%3Db9999_10000%26sec%3D1607714259628%26di%3Ddc755b8fc1caebec9b1369bba803631a%26imgtype%3D0%26src%3Dhttp%253A%252F%252Fstatic.yxbuluo.com%252Fstatic%252Fimage%252Farticle%252F20191206%252F201960152170321920_1.jpg&thumburl=https%3A%2F%2Fss1.bdstatic.com%2F70cFuXSh_Q1YnxGkpoWK1HF6hhy%2Fit%2Fu%3D141514570%2C3770701339%26fm%3D26%26gp%3D0.jpg'></image>
+</view>
